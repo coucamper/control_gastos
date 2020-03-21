@@ -1,0 +1,167 @@
+/* test object */
+
+.test {
+	background-color:  orange;
+	height: 300px;
+	width: 50%;
+	margin:  auto;
+}
+
+
+
+/* ---- PADDING CLASSES ---- */
+
+.no-pad {
+	padding:  0;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXX
+   ---- GLOBAL PADDINGS ---- 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* porcent paddings */
+
+.g-pad-xxs { padding: 1.5% ; }
+.g-pad-xs { padding: 2.5% ; }
+.g-pad-s { padding: 3% ; }
+.g-pad-m { padding: 5% ; }
+.g-pad-l { padding: 10% ; }
+.g-pad-xl { padding: 15% ; }
+.g-pad-xxl { padding: 20% ; }
+.g-pad-xxxl { padding: 25% ; }
+
+/* paddings in pixels */
+
+.glob-pad-xxs { padding: 10px ; }
+.glob-pad-xs { padding: 15px ; }
+.glob-pad-s { padding: 20px ; }
+.glob-pad-m { padding: 30px ; }
+.glob-pad-l { padding: 50px ; }
+.glob-pad-xl { padding: 75px ; }
+.glob-pad-xxl { padding: 100px ; }
+.glob-pad-xxxl { padding: 125px ; }
+
+/* ---- VERTICAL PADDING ---- */
+
+/* porcent paddings */
+
+.v-pad-xxs { padding: 1.5% 0px; }
+.v-pad-xs { padding: 3% 0px; }
+.v-pad-s { padding: 5% 0px; }
+.v-pad-m { padding: 7% 0px; }
+.v-pad-l { padding: 10% 0px; }
+.v-pad-xl { padding: 17% 0px; }
+.v-pad-xxl { padding: 20% 0px; }
+
+/* paddings in pixels */
+
+.vert-pad-xxs { padding: 5px 0px; }
+.vert-pad-xs { padding: 10px 0px; }
+.vert-pad-s { padding: 15px 0px; }
+.vert-pad-m { padding: 25px 0px; }
+.vert-pad-l { padding: 50px 0px; }
+.vert-pad-xl { padding: 75px 0px; }
+.vert-pad-xxl { padding: 100px 0px; }
+
+/* ---- HORIZONTAL PADDING ---- */
+
+/* porcent paddings */
+
+.h-pad-xxs { padding: 0px 1.5% ; }
+.h-pad-xs { padding: 0px 3% ; }
+.h-pad-s { padding: 0px 5% ; }
+.h-pad-m { padding: 0px 7% ; }
+.h-pad-l { padding: 0px 10% ; }
+.h-pad-xl { padding: 0px 17% ; }
+.h-pad-xxl { padding: 0px 20% ; }
+
+/* paddings in pixels */
+
+.hor-pad-xxs { padding: 0px 5px ; }
+.hor-pad-xs { padding: 0px 10px ; }
+.hor-pad-s { padding: 0px 15px ; }
+.hor-pad-m { padding: 0px 25px ; }
+.hor-pad-l { padding: 0px 50px ; }
+.hor-pad-xl { padding: 0px 75px ; }
+.hor-pad-xxl { padding: 0px 100px ; }
+
+/* ---- UNILATERAL PADDINGS ---- */
+
+.p-r-xs { padding-right: 1%; }
+.p-r-s { padding-right: 2%; }
+.p-r-m { padding-right: 3%; }
+.p-r-l { padding-right: 4%; }
+.p-r-xl { padding-right: 5%; }
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXX
+   ---- GLOBAL MARGINS ---- 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/* porcent margins */
+
+.g-mar-xxs { margin: 1.5% ; }
+.g-mar-xs { margin: 2.5% ; }
+.g-mar-s { margin: 3% ; }
+.g-mar-m { margin: 5% ; }
+.g-mar-l { margin: 10% ; }
+.g-mar-xl { margin: 15% ; }
+.g-mar-xxl { margin: 20% ; }
+.g-mar-xxxl { margin: 25% ; }
+
+/* margins in pixels */
+
+.glob-mar-xxs { margin: 10px ; }
+.glob-mar-xs { margin: 15px ; }
+.glob-mar-s { margin: 20px ; }
+.glob-mar-m { margin: 30px ; }
+.glob-mar-l { margin: 50px ; }
+.glob-mar-xl { margin: 75px ; }
+.glob-mar-xxl { margin: 100px ; }
+.glob-mar-xxxl { margin: 125px ; }
+
+/* ---- VERTICAL MARGINS ---- */
+
+/* porcent margins */
+
+.v-mar-xxs { margin: 1.5% 0px; }
+.v-mar-xs { margin: 3% 0px; }
+.v-mar-s { margin: 5% 0px; }
+.v-mar-m { margin: 7% 0px; }
+.v-mar-l { margin: 10% 0px; }
+.v-mar-xl { margin: 17% 0px; }
+.v-mar-xxl { margin: 20% 0px; }
+
+/* margins in pixels */
+
+.vert-mar-xxs { margin: 5px 0px; }
+.vert-mar-xs { margin: 10px 0px; }
+.vert-mar-s { margin: 15px 0px; }
+.vert-mar-m { margin: 25px 0px; }
+.vert-mar-l { margin: 50px 0px; }
+.vert-mar-xl { margin: 75px 0px; }
+.vert-mar-xxl { margin: 100px 0px; }
+
+/* ---- HORIZONTAL MARGINS ---- */
+
+/* porcent margins */
+
+.h-mar-xxs { margin: 0px 1.5% ; }
+.h-mar-xs { margin: 0px 3% ; }
+.h-mar-s { margin: 0px 5% ; }
+.h-mar-m { margin: 0px 7% ; }
+.h-mar-l { margin: 0px 10% ; }
+.h-mar-xl { margin: 0px 17% ; }
+.h-mar-xxl { margin: 0px 20% ; }
+
+/* margins in pixels */
+
+.hor-mar-xxs { margin: 0px 5px ; }
+.hor-mar-xs { margin: 0px 10px ; }
+.hor-mar-s { margin: 0px 15px ; }
+.hor-mar-m { margin: 0px 25px ; }
+.hor-mar-l { margin: 0px 50px ; }
+.hor-mar-xl { margin: 0px 75px ; }
+.hor-mar-xxl { margin: 0px 100px ; }

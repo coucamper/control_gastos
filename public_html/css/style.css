@@ -1,0 +1,347 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'arial', sans-serif;
+}
+
+a {
+	color: black;
+}
+
+#top_header {
+	margin: 0;
+	background-color: #1e2b33;
+	padding: 1% 0;
+}
+
+.header_menu {
+	margin: 0;
+}
+
+
+
+.header_menu li{
+	display: inline;
+	padding: 1% 5% 1% 1%;
+}
+
+.header_menu a {
+	color: white;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.header_menu i{
+	vertical-align: bottom;
+	padding: 0 0.5% 0 0;
+	font-size: 1.1rem;
+} 
+
+.main_nav i {
+	vertical-align: bottom;
+	padding: 0 8% 0 0;	
+	font-size: 1.1rem;
+}
+
+.principal {
+	width: 100%;
+}
+
+#main {
+	background-color: #1e2b33;
+	width: 13%;
+	min-height: 650px;
+	display: inline-block;
+}
+
+ul.main_nav, ul.header_menu {
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+}
+ul.main_nav li {
+	display: block;
+	margin: 0;
+}
+
+ul.main_nav a {
+	padding: 10% 5% 10% 7%;
+	display: block;	
+	color: white;
+	font-weight: 400;
+}
+
+ul.main_nav a, ul.header_menu a  {
+	text-decoration: none;
+}
+
+ul.main_nav a:hover {
+	color: #2686E8;
+	border-left: 2px solid #2686E8;
+	background-color: #0E1920;
+}
+
+
+.viewer {
+	display: inline-block;	
+	width: 85%; 
+	vertical-align: top;
+}
+
+#hogar_wrap {
+	width: 100%;
+}
+
+.hogar_tabs, .balance_tabs, .food_tabs {
+	vertical-align: top;
+
+}
+
+.hogar_tabs h1, h2, h3, h4, h5 {
+	color: #2686E8;	
+	margin: 0;
+	padding: 0;
+}
+
+.balance_tabs h1, h2, h3, h4, h5 {
+	color: #2686E8;	
+	margin: 0;
+	padding: 0;
+}
+
+.food_tabs h1, h2, h3, h4, h5 {
+	color: #2686E8;	
+	margin: 0;
+	padding: 0;	
+}
+
+
+.hogar_tabs h4, .balance_tabs h4, .food_tabs h4, .vehiculos_tabs h4 {
+	padding: 1%;
+	background-color: #2686e8;
+	color: white;
+	margin: 0;
+	padding: 6% 0 4% 0;
+}
+
+
+.hogar_tabs img, .balance_img {
+	margin: 8% 0 0 0;
+}
+
+.viewer .hogar_tabs, .viewer .balance_tabs {
+	display: inline-block;
+	width: 31.9%;
+	margin: 2% 0 1% 1%;
+	padding: 0%;
+	border:  1px solid #D0D0D0;
+}
+
+.hogar_tabs ul, .balance_tabs ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.hogar_tabs a, .balance_tabs a {
+	text-decoration: none;
+	padding: 2% 1%;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.hogar_tabs a:hover, .balance_tabs a :hover {
+	color: #2686E8;
+}
+
+
+.hogar_tabs input {
+	margin: 2% 1%;
+}
+
+.food_tabs {
+	width: 15%;
+}
+
+
+.blocked {
+	border: 1px solid #D0D0D0;
+	margin-left: 1%;
+}
+
+.blocked h4 {
+	text-align: center;
+	background-color: #2686e8;
+	color: white;
+	padding: 0.5% 0;
+}
+
+/* ==== FOOTER STYLES ==== */
+
+footer {
+	background-color: #1e2b33;
+	margin: 0;
+	padding: 0;
+	min-height: 100px;
+}
+
+.footer_viewer {
+	width: 73%; 
+	margin: auto;
+}
+
+.footer_tabs {
+	width: 23%;
+	padding: 2% 0;
+}
+
+.footer_tabs li {
+	display: block;
+	padding: 1% 0;
+}
+
+footer ul {
+	padding: 0;
+	margin:  0;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer a {
+	width: 25%;
+	padding:  2% 1%;
+	color: white;
+	text-decoration: none;
+}
+
+.lista_contable {
+	width: 99%;
+}
+
+.listado_movimientos {
+	width: 100%;
+	padding:  2% 1%;
+	font-size: .8em;
+}
+
+.listado_mov_contables {
+	width: 100%;
+	text-align: left;
+}
+
+.listado_mov_contables td {
+	border:  1px solid #CDCDCD;	
+}
+
+th {
+	background-color: #2686E8;
+	color: #000;
+	font-size: 1rem;
+	padding: 0.5% 1% 0.5% 0.5%;
+}
+
+tbody td{
+  padding: 0.5%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #cae4ff;
+  color: #000;
+}
+
+.buscar_movimientos {
+	list-style: none;	
+	padding: 0;
+	margin:  0;
+}
+
+.buscar_movimientos i {
+	vertical-align: top;
+	font-size: 1rem;
+}
+
+.buscar_movimientos li {
+	display: inline-block;
+	width: 15%;
+	padding: 0.5% 2% 0.5% 0.5%;
+}
+
+.buscar_movimientos a {
+}
+
+
+
+
+.balance_tab, .food_tabs {
+	display: inline-block;
+	width: 15.2%;
+	margin: 2% 0 1% 1%;
+	padding: 0%;
+	border:  1px solid #D0D0D0;
+}
+
+
+.vehiculos_tabs {
+	display: inline-block;
+	width: 23.5%;
+	margin: 2% 0 1% 1%;
+	padding: 0%;
+	border:  1px solid #D0D0D0;
+}
+
+.logo {
+	vertical-align: bottom;
+}
+
+/* ====== herramientas ====== */
+
+.inline-block {
+	display: inline-block;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.f_input {
+	display: inline-block;
+}
+
+.f_select {
+	display: inline;
+}
+
+.icon_color {
+	color: #2686e8;
+}
+
+.align_C {
+	text-align: center;
+}
+
+/* ====== tamaños de fuentes ====== */
+.f-size-14 {
+	font-size: .7rem;
+}
+
+.f-size-16 {
+	font-size: .8rem;
+}
+
+.i-size_1-2_rem {
+	font-size: 1.2rem;
+}
+
+.i-size_4_rem {
+	font-size: 4rem;
+}
+
+/* ===== Spacing ===== */
+
+.p-t-
